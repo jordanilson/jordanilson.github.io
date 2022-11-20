@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Portfólio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/icons8-visual-studio-code-2019.svg"
+    />
+  </head>
+  <body>
+    <header class="fixed-top">
+      <nav
+        class="container navbar navbar-light bg-transparent justify-content-between w-100"
+      >
+        <img
+          class="img-icon-visualstudio"
+          src="img/icons8-visual-studio-code-2019.svg"
+          alt="icone-vistual-studio-code"
+        />
+        <div class="menu-hamburguer">
+          <input type="checkbox" id="checkbox-menu" />
+          <label for="checkbox-menu" onclick="hadleClickMenuHamburger()">
+            <span></span><span></span><span></span>
+          </label>
+        </div>
+        <ul class="ul-nav d-flex gap-5 mt-3">
+          <li class="home-mobile js-menu-ul-li">
+            <a id="hover-li-nav" class="m-3 color" href="#home">HOME</a>
+          </li>
+          <li class="sobre-mobile js-menu-ul-li">
+            <a id="hover-li-nav" class="m-3 color" href="#sobre">SOBRE</a>
+          </li>
+          <li class="habilidades-mobile js-menu-ul-li">
+            <a id="hover-li-nav" class="m-2 color" href="#habilidades"
+              >HABILIDADES</a
+            >
+          </li>
+          <li class="projetos-mobile js-menu-ul-li">
+            <a id="hover-li-nav" class="ml-2 color" href="#projetos"
+              >PROJETOS</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-home" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col div-title-header">
+              <h3 id="h3-header">Olá eu sou,</h3>
+              <h1 id="h1-header">Jordanilson Fernando</h1>
+              <h3 id="h3-header">Desenvolvedor Front-End</h3>
+              <div class="d-flex flex-row icones-home-mobile gap-5">
+                <div
+                  class="icones-home rounded-pill icone-home-mobile-linkedin"
+                >
+                  <svg
+                    class="me-1 img-icone-mobile"
+                    width="35"
+                    height="35"
+                    viewBox="0 0 35 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_158_29)">
+                      <path
+                        d="M0 2.50688C0 1.12219 1.15062 0 2.57031 0H32.4297C33.8494 0 35 1.12219 35 2.50688V32.4931C35 33.8778 33.8494 35 32.4297 35H2.57031C1.15062 35 0 33.8778 0 32.4931V2.50688ZM10.8128 29.2994V13.4947H5.56063V29.2994H10.8128ZM8.18781 11.3356C10.0188 11.3356 11.1584 10.1238 11.1584 8.60563C11.1256 7.05469 10.0209 5.87563 8.22281 5.87563C6.42469 5.87563 5.25 7.05688 5.25 8.60563C5.25 10.1238 6.38969 11.3356 8.15281 11.3356H8.18781V11.3356ZM18.9241 29.2994V20.4728C18.9241 20.0003 18.9591 19.5278 19.0991 19.1909C19.4775 18.2481 20.3416 17.2703 21.7941 17.2703C23.695 17.2703 24.4541 18.7184 24.4541 20.8447V29.2994H29.7062V20.2344C29.7062 15.3781 27.1163 13.1206 23.66 13.1206C20.8731 13.1206 19.6241 14.6519 18.9241 15.7303V15.785H18.8891C18.9007 15.7667 18.9123 15.7485 18.9241 15.7303V13.4947H13.6741C13.7397 14.9778 13.6741 29.2994 13.6741 29.2994H18.9241Z"
+                        fill="#001F50"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_158_29">
+                        <rect width="35" height="35" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <a href="https://www.linkedin.com/in/jordanilson-fernando-258462252/" target="_blank">Linkedin</a>
+                </div>
+                <div class="icones-home rounded-pill icone-home-mobile-github">
+                  <svg
+                    class="me-1 img-icone-mobile"
+                    width="35"
+                    height="35"
+                    viewBox="0 0 35 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17.5 0C7.83125 0 0 8.02933 0 17.9426C0 25.8823 5.00937 32.5883 11.9656 34.9657C12.8406 35.1227 13.1687 34.5844 13.1687 34.1134C13.1687 33.6873 13.1469 32.2743 13.1469 30.7716C8.75 31.6015 7.6125 29.6726 7.2625 28.6634C7.06562 28.1475 6.2125 26.5551 5.46875 26.129C4.85625 25.7925 3.98125 24.9627 5.44688 24.9403C6.825 24.9178 7.80938 26.2411 8.1375 26.7794C9.7125 29.4932 12.2281 28.7307 13.2344 28.2597C13.3875 27.0934 13.8469 26.3084 14.35 25.8598C10.4562 25.4113 6.3875 23.8637 6.3875 17.0007C6.3875 15.0494 7.06563 13.4346 8.18125 12.1786C8.00625 11.73 7.39375 9.89088 8.35625 7.42377C8.35625 7.42377 9.82188 6.95277 13.1687 9.26289C14.5687 8.85918 16.0563 8.65732 17.5438 8.65732C19.0313 8.65732 20.5188 8.85918 21.9188 9.26289C25.2656 6.93035 26.7313 7.42377 26.7313 7.42377C27.6938 9.89088 27.0813 11.73 26.9063 12.1786C28.0219 13.4346 28.7 15.027 28.7 17.0007C28.7 23.8861 24.6094 25.4113 20.7156 25.8598C21.35 26.4205 21.8969 27.4971 21.8969 29.1792C21.8969 31.5791 21.875 33.5079 21.875 34.1134C21.875 34.5844 22.2031 35.1452 23.0781 34.9657C26.5524 33.7635 29.5714 31.4744 31.7101 28.4206C33.8487 25.3668 34.9994 21.7022 35 17.9426C35 8.02933 27.1688 0 17.5 0Z"
+                      fill="#001F50"
+                    />
+                  </svg>
+
+                  <a href="https://github.com/jordanilson" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <img
+                class="img-header align-items-center w-100"
+                src="img/Jan-Work_1.jpg"
+                alt="imagem-menino-home"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-sobre" id="sobre">
+        <div class="container">
+          <div class="flex-sobre">
+            <span id="border-radius-sobre">x</span>
+            <span id="border-dashed-sobre"></span>
+          </div>
+          <h1 class="h1-section-sobre text-center">Sobre mim</h1>
+          <div class="container">
+            <div class="row grid-section-sobre">
+              <div class="col">
+                <img
+                  class="img-menino"
+                  src="img/img-menino.png"
+                  alt="imagem-menino"
+                />
+              </div>
+              <div class="col">
+                <p class="p-section-sobre">
+                  Sou Jordanilson Fernando desenvolvedor Front-End e atualmente
+                  estou situado em São Luís-MA. Meu primeiro contato com a
+                  programação foi em 2020 quando iniciei meus estudos na
+                  faculdade a onde estou atualmente cursando Sistemas de
+                  Informação. Após contato com algumas das linguagens de
+                  programação, só em 2022 me deparei com as aplicações voltadas
+                  para o Front-End e por conseguinte acabei simpatizando.
+                  Atualmente contínuo estudando e aprimorando meus conhecimentos
+                  com ênfase em ser Desenvolvedor Full-Stack.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-habilidades" id="habilidades">
+        <span class="trapezio-section-habilidades"
+          ><img
+            class="img-trapezio-section-habilidades"
+            src="img/Polygon 2 (3).png"
+            alt="imagem-trapezio"
+        /></span>
+        <h1 class="h1-section-habilidades text-center">Habilidades</h1>
+        <div>
+          <div class="flex-habilidades container">
+            <span id="border-radius-habilidades">x</span>
+            <span id="border-dashed-habilidades"></span>
+          </div>
+        </div>
+        <div
+          class="container none-card-scroll bg-white pb-3"
+          style="width: 45rem"
+        >
+          <div class="row card-scroll">
+            <div class="col">
+              <img
+                class="trapezio-grid"
+                src="img/Trapezio.png"
+                alt="imagem-trapezio"
+              />
+              <div class="card border-0" style="width: 20rem">
+                <img
+                  class="mt-3 img-anima html-js-init"
+                  id="animista-html"
+                  style="height: 13rem"
+                  src="img-anima/htmnlAnima.svg"
+                  alt="Card image cap"
+                />
+                <img
+                  class="mt-3 img-anima"
+                  id="animista-css"
+                  style="height: 13rem"
+                  src="img-anima/cssAnima.svg"
+                  alt="Card image cap"
+                />
+                <img
+                  class="mt-3 img-anima"
+                  style="height: 13rem"
+                  id="animista-javascript"
+                  src="img-anima/JsAnima.svg"
+                  alt="Card image cap"
+                />
+                <img
+                  class="mt-3 img-anima"
+                  style="height: 13rem"
+                  id="animista-sass"
+                  src="img-anima/sassAnima.svg"
+                  alt="Card image cap"
+                />
+                <img
+                  class="mt-3 img-anima"
+                  id="animista-react"
+                  style="height: 13rem"
+                  src="img-anima/reactAnima.svg"
+                  alt="Card image cap"
+                />
+                <img
+                  class="mt-3 img-anima"
+                  style="height: 13rem"
+                  id="animista-git"
+                  src="img-anima/gitAnima.svg"
+                  alt="Card image cap"
+                />
+
+                <hr />
+                <div class="card-body" style="height: 10.5rem">
+                  <div class="d-flex flex-row gap-4 js-overview">
+                    <div
+                      class="m-0 pb-2 js-efeito-sobre"
+                      id="click-overview"
+                      onclick="hadleClickSobre()"
+                    >
+                      Sobre
+                    </div>
+                    <div
+                      class="m-0 pb-2 js-efeito-curiosidade"
+                      id="click-overview"
+                      onclick="hadleClickCuriosidade()"
+                    >
+                      Curiosidades
+                    </div>
+                    <div
+                      class="m-0 pb-2 js-efeito-atualizacao"
+                      id="click-overview"
+                      onclick="hadleClickAtualizacao()"
+                    >
+                      Atualizações
+                    </div>
+                  </div>
+                  <div class="div-flex-card-body">
+                    <div class="js-flex-card-html">
+                      <div class="d-flex flex-row">
+                        <p class="p-2 init-sobre-html" id="text-info-html">
+                          É uma linguagem de marcação utilizada na construção de
+                          páginas na Web por meio do Html.
+                        </p>
+
+                        <p
+                          class="p-2 init-curiosidade-html"
+                          id="text-info-html"
+                        >
+                          No início pode parecer assustador, mas isso passa e
+                          com o tempo será mais fácil de interpretar os
+                          códigos-fontes.
+                        </p>
+                        <p
+                          class="p-2 init-atualizacao-html"
+                          id="text-info-html"
+                        >
+                          O HTML5 trouxe a inclusão do elemento Canvas para
+                          desenhos, vídeo e áudio para reprodução multimídias e
+                          um melhor suporte para armazenamento local.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="js-flex-card-css">
+                      <div class="d-flex flex-row">
+                        <p class="p-2 init-sobre-css" id="text-info-css">
+                          Cascading Style Sheets é um mecanismo para adicionar
+                          estilo a um documento web. O código CSS pode ser
+                          aplicado diretamente nas tags ou ficar contido dentro
+                          das tags style.
+                        </p>
+                        <p class="p-2 init-curiosidade-css" id="text-info-css">
+                          Apesar de não ser linguagem de programação existem
+                          tarefas que você pode resolver só com CSS sem
+                          JavaScript como por exemplo, CSS @support e o CSS
+                          Counters.
+                        </p>
+                        <p class="p-2 init-atualizacao-css" id="text-info-css">
+                          O CCS3 é simplesmente a versão mais atual do CSS, uma
+                          evolução. O CCS3 incorpora novos elementos para
+                          construir animações tanto em 2 como e 3 dimensões.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="js-flex-card-javascript">
+                      <div class="d-flex flex-row">
+                        <p
+                          class="init-sobre-javascript"
+                          id="text-info-javascript"
+                        >
+                          JavaScript é uma linguagem de programação interpretada
+                          estruturada, de script em alto nível com tipagem
+                          dinâmica fraca e multiparadigma.
+                        </p>
+                        <p
+                          class="init-curiosidade-javascript"
+                          id="text-info-javascript"
+                        >
+                          JavaScript oferece suporte a expressões regulares de
+                          maneira semelhante ao Perl, que fornece uma sintaxe
+                          concisa e poderosa.
+                        </p>
+                        <p
+                          class="init-atualizacao-javascript"
+                          id="text-info-javascript"
+                        >
+                          Na última versão foram adicionadas novas
+                          funcionalidades na linguagem como por exemplo,
+                          string.prototype.replaceAll() e promise.any().
+                        </p>
+                      </div>
+                    </div>
+                    <div class="js-flex-card-sass">
+                      <div class="d-flex flex-row">
+                        <p class="init-sobre-sass" id="text-info-sass">
+                          Sass é uma linguagem de folhas de estilo concebida
+                          inicialmente por Hampton Catlin e desenvolvida por
+                          Natalie Weizenbaum.
+                        </p>
+                        <p class="init-curiosidade-sass" id="text-info-sass">
+                          O Sass é um grande aliado dos devs, pois agiliza e
+                          poupa tempo nas tarefas do dia a dia.
+                        </p>
+                        <p class="init-atualizacao-sass" id="text-info-sass">
+                          Atualmente o sass está na versão 3.7.4 que foi lançada
+                          em 2019.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="js-flex-card-react">
+                      <div class="d-flex flex-row">
+                        <p class="init-sobre-react" id="text-info-react">
+                          O React é uma biblioteca front-end JavaScript de
+                          código aberto com foco em criar interfaces de usuário
+                          em páginas web e foi criado em 2011 pelo Facebook.
+                        </p>
+                        <p class="init-curiosidade-react" id="text-info-react">
+                          O React é flexível pois facilita a interface com
+                          outras bibliotecas e frameworks. Uma das suas
+                          principais características é a utilização de
+                          componentes e Hooks.
+                        </p>
+                        <p class="init-atualizacao-react" id="text-info-react">
+                          Atualmente possui a versão 17.0.2, apesar de possui
+                          uma versão 18 em alpha.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="js-flex-card-git">
+                      <div class="d-flex flex-row">
+                        <p class="init-sobre-git" id="text-info-git">
+                          Git é um sistema de controle de versões distribuído,
+                          usado principalmente no desenvolvimento de software.
+                        </p>
+                        <p class="init-curiosidade-git" id="text-info-git">
+                          O Git foi desenvolvido por um cara bem inovador,
+                          importantíssimo no setor da tecnologia chamado Linus
+                          Torvalds. O responsável pelo desenvolvimento do kernel
+                          do Linux.
+                        </p>
+                        <p class="init-atualizacao-git" id="text-info-git">
+                          O Git atualmente está na versão 2.34.1.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col scroll-section-habilidades">
+              <div style="height: 28rem" class="text-overview-scroll pe-2">
+                <div class="scroll-js mt-4 p-1" onclick="hadlleClickHtml()">
+                  <div class="d-flex flex-row">
+                    <div class="p-2">
+                      <img
+                        class="img-html"
+                        src="img/vetorhtml.png"
+                        alt="Card image cap"
+                      />
+                    </div>
+                    <div class="p-2">
+                      <p id="p-habilidades">
+                        HTML é uma linguagem de marcação utilizada na construção
+                        de paginas web...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="scroll-js mt-4 p-1" onclick="hadlleClickCss()">
+                  <div class="d-flex flex-row">
+                    <div class="p-2">
+                      <img
+                        class="img-css"
+                        src="img/VectorCss 2.png"
+                        alt="Card image cap"
+                      />
+                    </div>
+                    <div class="p-2">
+                      <p id="p-habilidades">
+                        Cascading Style Sheets é um mecanismo para adicionar
+                        estilo a um documento web....
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="scroll-js mt-4 p-1"
+                  onclick="hadlleClickJavaScript()"
+                >
+                  <div class="d-flex flex-row">
+                    <div class="p-2">
+                      <img
+                        class="img-js"
+                        src="img/VectorJs.png"
+                        alt="Card image cap"
+                      />
+                    </div>
+                    <div class="p-2">
+                      <p id="p-habilidades">
+                        JavaScript é uma linguagem de programação interpretada
+                        estruturada...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="scroll-js mt-4 p-1" onclick="hadlleClickSass()">
+                  <div class="d-flex flex-row">
+                    <div class="p-2">
+                      <img
+                        class="img-sass"
+                        src="img/Vector Sass.png"
+                        alt="Card image cap"
+                      />
+                    </div>
+                    <div class="p-2">
+                      <p id="p-habilidades">
+                        Sass é uma linguagem de folhas de estilo concebida
+                        inicialmente por Hampton Catlin...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="scroll-js mt-4 p-1" onclick="hadlleClickReact()">
+                  <div class="d-flex flex-row">
+                    <div class="p-2">
+                      <img
+                        class="img-react"
+                        src="img/Vector React.png"
+                        alt="Card image cap"
+                      />
+                    </div>
+                    <div class="p-2">
+                      <p id="p-habilidades">
+                        O React é uma biblioteca front-end JavaScript de código
+                        aberto como foco em criar interfaces...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="scroll-js mt-4 p-1" onclick="hadlleClickGit()">
+                  <div class="d-flex flex-row">
+                    <div class="p-2">
+                      <img
+                        class="img-git"
+                        src="img/Vector git.png"
+                        alt="Card image cap"
+                      />
+                    </div>
+                    <div class="p-2">
+                      <p id="p-habilidades">
+                        Git é um sistema de controle de versões distribuído
+                        usado principalmente...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="grid-imgs-mobile">
+            <img src="img-anima/htmnlAnima.svg" alt="imagem-html" />
+            <img src="img-anima/cssAnima.svg" alt="imagem-css" />
+            <img src="img-anima/JsAnima.svg" alt="imagem-javascript" />
+            <img src="img-anima/sassAnima.svg" alt="imagem-sass" />
+            <img src="img-anima/reactAnima.svg" alt="imagem-react" />
+            <img src="img-anima/gitAnima.svg" alt="imagem-git" />
+          </div>
+        </div>
+      </section>
+      <section class="section-projetos" id="projetos">
+        <div class="container">
+          <div class="flex-projetos">
+            <span id="border-radius-projetos">x</span>
+            <span id="border-dashed-projetos"></span>
+          </div>
+          <h1 class="h1-section-projetos text-center">Projetos</h1>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="div-gif-swiper">
+                  <img
+                    class="gif-carrossel"
+                    src="videos/cinema-flix.gif"
+                    alt=" gif-cinema-flix"
+                  />
+                  <div class="div-card-carrosel">
+                    <h3>Cinema-Flix</h3>
+                    <p>
+                      Projeto feito com React-Js consumindo Api do Imdb Filmes.
+                    </p>
+                    <button>
+                      <a
+                        href="https://cinema-flix-m2ie-7xxuy1jmg-jordanilson.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Acessar</a
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="div-gif-swiper">
+                  <img
+                    class="gif-carrossel"
+                    src="videos/port-aventura-word.gif"
+                    alt="gif-port-aventura-word"
+                  />
+                  <div class="div-card-carrosel">
+                    <h3>Port Aventura World</h3>
+                    <p>
+                      Página landing page de agência de viagem ultilizando Html,
+                      Css e JavaScript.
+                    </p>
+                    <button>
+                      <a
+                        href="https://landing-page-port-aventura-world.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Acessar</a
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="div-em-breve">
+                  <h2 class="loading">Em breve</h2>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="div-em-breve">
+                  <h2 class="loading">Em breve</h2>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="div-em-breve">
+                  <h2 class="loading">Em breve</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>Desenvolvido por Jordanilson Fernando ©</p>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="grid.js"></script>
+    <script src="hover.js"></script>
+    <script src="menu-mobile.js"></script>
+    <script src="swiper.js"></script>
+    <script src="scroll-suave.js"></script>
+  </body>
+</html>

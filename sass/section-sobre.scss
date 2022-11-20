@@ -1,0 +1,51 @@
+.section-sobre{
+  padding-top: 30px;
+  height: 50em;
+}
+.flex-sobre {
+  position: relative;
+  top: 5px;
+  display: flex;
+}
+#border-radius-sobre {
+  position: relative;
+  top: 58px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: $background-nav-icones;
+  color: $background-nav-icones;
+}
+#border-dashed-sobre {
+  position: relative;
+  top: 70px;
+  left: 2px;
+  width: 36.5%;
+  height: 25px;
+  border-top: dashed 2px;
+  color: color-fontes-icone;
+}
+.section-sobre h1 {
+  margin-top: 15px;
+  font-size: 3.5rem;
+  color: $color-titulo;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+.grid-section-sobre {
+  position: relative;
+  top: -50px;
+}
+.img-menino {
+  height: 75ch;
+}
+.p-section-sobre {
+  position: relative;
+  top: 200px;
+  left: -415px;
+  width: 282%;
+  text-align: justify;
+  font-size: 1.2rem;
+  font-family:  AvertaStd;
+  color: $color-fontes-icone;
+}

@@ -1,0 +1,40 @@
+body a,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: $background-nav-icones;
+  border-bottom: solid 2px;
+  border-color: $color-fontes-icone;
+  height: 80px;
+}
+
+ul,
+a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.color {
+  color: $color-fontes-icone;
+}
+
+.color:hover{
+  color: $color-fontes-icone;
+}
+
+.div-title-header {
+  position: relative;
+  top: 300px;
+}
+
+label{
+  background-color: color-fontes-icone;
+}

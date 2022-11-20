@@ -1,0 +1,21 @@
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: $background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 4.5em;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  font-size: 1.1rem;
+  
+  p {
+    margin-top: 20px;
+    color: $color-fontes-icone;
+  }
+}

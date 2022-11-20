@@ -1,0 +1,134 @@
+.section-projetos {
+  height: 35em;
+}
+
+.flex-projetos {
+  position: relative;
+  top: 5px;
+  display: flex;
+}
+
+#border-radius-projetos {
+  position: relative;
+  top: 72.5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: $background-nav-icones;
+  color: $background-nav-icones;
+}
+
+#border-dashed-projetos {
+  position: relative;
+  top: 85px;
+  left: 2px;
+  width: 39%;
+  height: 25px;
+  border-top: dashed 2px;
+  color: color-fontes-icone;
+}
+
+.section-projetos h1 {
+  margin-top: 30px;
+  font-size: 3.5rem;
+  color: $color-titulo;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+
+.swiper {
+  width: 75%;
+}
+
+.swiper-slide {
+  position: relative;
+  bottom: 50px;
+  margin-top: 100px;
+  background-position: center;
+  background-size: cover;
+  max-width: 400px;
+  border: solid 2px $background-nav-icones;
+  background-color: $background;
+}
+
+.gif-carrossel {
+  max-width: 100%;
+}
+
+.div-card-carrosel {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  font-family: AvertaStd;
+  color: $color-fontes-icone;
+
+  h3 {
+    margin-left: 10px;
+    padding-top: 20px;
+  }
+
+  p {
+    margin: 0px 0px 10px 10px;
+  }
+
+  button {
+    margin-left: 10px;
+    border: solid 0px;
+    background-color: $background-nav-icones;
+    border-radius: 2px;
+    padding: 4px;
+    width: 100px;
+  }
+
+  a {
+    color: $color-fontes-icone;
+  }
+
+  a:hover {
+    color: $color-fontes-icone;
+  }
+}
+
+.div-gif-swiper {
+  height: 450px;
+}
+
+.div-em-breve {
+  height: 450px;
+  background-color: #dcdcdc;
+
+  h2 {
+    position: relative;
+    top: 200px;
+    padding: 10px;
+    background-color: $background;
+    color: $color-fontes-icone;
+    text-align: center;
+  }
+}
+
+h2.loading {
+  background-color: $background;
+  font-size: 2.2rem;
+}
+
+h2.loading::after {
+  content: " ";
+  position: absolute;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    content: "";
+  }
+  33.3% {
+    content: ".";
+  }
+  66.6% {
+    content: "..";
+  }
+  100% {
+    content: "...";
+  }
+}

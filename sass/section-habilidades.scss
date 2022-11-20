@@ -1,0 +1,167 @@
+.section-habilidades {
+  background-color: $background;
+  padding-top: 30px;
+  height: 50em;
+}
+
+.flex-habilidades {
+  position: relative;
+  top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.section-habilidades h1 {
+  position: relative;
+  top: -75px;
+  font-size: 3.5rem;
+  color: $color-fontes-icone;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+
+#border-radius-habilidades {
+  position: relative;
+  top: -130px;
+  right: -35%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: $color-fontes-icone;
+  color: transparent;
+}
+
+#border-dashed-habilidades {
+  position: relative;
+  top: -118px;
+  right: 32px;
+  width: 35.3%;
+  height: 25px;
+  border-top: dashed 2px;
+  display: flex;
+  color: color-fontes-icone;
+}
+
+.img-trapezio-section-habilidades {
+  object-fit: cover;
+  max-height: 8rem;
+  width: 61.5%;
+}
+
+.trapezio-section-habilidades {
+  position: relative;
+  top: -5rem;
+}
+
+.trapezio-grid {
+  position: relative;
+  top: -30px;
+  left: -11.5px;
+}
+
+.card {
+  margin-top: -40px;
+}
+
+.scroll-section-habilidades {
+  position: relative;
+  overflow-y: scroll;
+}
+
+.scroll-section-habilidades::-webkit-scrollbar {
+  margin-top: 20px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $color-fontes-icone;
+}
+
+.text-overview-scroll {
+  position: absolute;
+  font-size: 0.95rem;
+}
+
+.scroll-js {
+  background-color: $background;
+  width: 100%;
+}
+.scroll-js img {
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+
+#p-habilidades {
+  position: relative;
+  left: 8px;
+  color: $color-fontes-icone;
+}
+
+#click-overview {
+  font-size: 1rem;
+}
+
+.div-flex-card-body p {
+  color: $color-fontes-icone;
+}
+
+.card-body div {
+  color: $color-fontes-icone;
+}
+
+.card-body {
+  position: relative;
+  top: -25px;
+  left: -10px;
+}
+
+.div-flex-card-body {
+  position: relative;
+  top: -10px;
+}
+
+.scroll-js {
+  cursor: pointer;
+}
+
+.js-flex-card-html {
+  position: relative;
+  top: -1px;
+  left: -5px;
+}
+
+.js-flex-card-css {
+  position: relative;
+  top: -1px;
+  left: -5px;
+}
+
+.js-flex-card-javascript {
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+
+.js-flex-card-sass {
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+
+.js-flex-card-react {
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+
+.js-flex-card-git {
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+
+.grid-imgs-mobile {
+  display: none;
+}
